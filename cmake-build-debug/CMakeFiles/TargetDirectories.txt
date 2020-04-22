@@ -1,0 +1,3 @@
+/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/CMakeFiles/cmake_testapp.dir
