@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named cmake_testapp_calc
+
+# Build rule for target.
+cmake_testapp_calc: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmake_testapp_calc
+.PHONY : cmake_testapp_calc
+
+# fast build rule for target.
+cmake_testapp_calc/fast:
+	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/build
+.PHONY : cmake_testapp_calc/fast
+
+#=============================================================================
+# Target rules for targets named test_library
+
+# Build rule for target.
+test_library: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test_library
+.PHONY : test_library
+
+# fast build rule for target.
+test_library/fast:
+	$(MAKE) -f CMakeFiles/test_library.dir/build.make CMakeFiles/test_library.dir/build
+.PHONY : test_library/fast
+
+#=============================================================================
 # Target rules for targets named cmake_testapp
 
 # Build rule for target.
@@ -123,12 +149,43 @@ cmake_testapp/fast:
 	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/build
 .PHONY : cmake_testapp/fast
 
+calc.o: calc.cpp.o
+
+.PHONY : calc.o
+
+# target to build an object file
+calc.cpp.o:
+	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/calc.cpp.o
+	$(MAKE) -f CMakeFiles/test_library.dir/build.make CMakeFiles/test_library.dir/calc.cpp.o
+.PHONY : calc.cpp.o
+
+calc.i: calc.cpp.i
+
+.PHONY : calc.i
+
+# target to preprocess a source file
+calc.cpp.i:
+	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/calc.cpp.i
+	$(MAKE) -f CMakeFiles/test_library.dir/build.make CMakeFiles/test_library.dir/calc.cpp.i
+.PHONY : calc.cpp.i
+
+calc.s: calc.cpp.s
+
+.PHONY : calc.s
+
+# target to generate assembly for a file
+calc.cpp.s:
+	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/calc.cpp.s
+	$(MAKE) -f CMakeFiles/test_library.dir/build.make CMakeFiles/test_library.dir/calc.cpp.s
+.PHONY : calc.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
+	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/main.cpp.o
 	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
@@ -138,6 +195,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
+	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/main.cpp.i
 	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
@@ -147,6 +205,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
+	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/main.cpp.s
 	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
@@ -158,7 +217,12 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... cmake_testapp_calc"
+	@echo "... test_library"
 	@echo "... cmake_testapp"
+	@echo "... calc.o"
+	@echo "... calc.i"
+	@echo "... calc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

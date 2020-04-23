@@ -79,6 +79,7 @@ cmake_testapp_EXTERNAL_OBJECTS =
 
 cmake_testapp: CMakeFiles/cmake_testapp.dir/main.cpp.o
 cmake_testapp: CMakeFiles/cmake_testapp.dir/build.make
+cmake_testapp: ../lib/libtest_library.a
 cmake_testapp: CMakeFiles/cmake_testapp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cmake_testapp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmake_testapp.dir/link.txt --verbose=$(VERBOSE)

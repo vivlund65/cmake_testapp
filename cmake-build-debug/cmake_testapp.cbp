@@ -37,6 +37,98 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="cmake_testapp_calc">
+				<Option output="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/cmake_testapp_calc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/math"/>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/general"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmake_testapp_calc"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmake_testapp_calc/fast">
+				<Option output="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/cmake_testapp_calc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/math"/>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/general"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 cmake_testapp_calc/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_library">
+				<Option output="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/libtest_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/math"/>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/general"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_library"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_library/fast">
+				<Option output="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/libtest_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/math"/>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/general"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 test_library/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="cmake_testapp">
 				<Option output="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/cmake_testapp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug"/>
@@ -44,6 +136,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/math"/>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/general"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -65,6 +159,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/math"/>
+					<Add directory="/Users/Vivian/CLionProjects/cmake_testapp/includes/general"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
@@ -80,7 +176,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/Vivian/CLionProjects/cmake_testapp/calc.cpp">
+			<Option target="cmake_testapp_calc"/>
+			<Option target="test_library"/>
+		</Unit>
 		<Unit filename="/Users/Vivian/CLionProjects/cmake_testapp/main.cpp">
+			<Option target="cmake_testapp_calc"/>
 			<Option target="cmake_testapp"/>
 		</Unit>
 		<Unit filename="/Users/Vivian/CLionProjects/cmake_testapp/CMakeLists.txt">
