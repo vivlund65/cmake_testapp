@@ -3,3 +3,6 @@
 /Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/CMakeFiles/cmake_testapp_calc.dir
 /Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/CMakeFiles/test_library.dir
 /Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/CMakeFiles/cmake_testapp.dir
+/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/test/CMakeFiles/cmake_testapp_boost.dir

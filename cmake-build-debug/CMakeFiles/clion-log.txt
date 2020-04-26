@@ -1,11 +1,4 @@
 "/Users/Vivian/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/Vivian/CLionProjects/cmake_testapp
-CMake Error at /Users/Vivian/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
-  Could NOT find Boost (missing: Boost_INCLUDE_DIR unit_test_framework)
-Call Stack (most recent call first):
-  /Users/Vivian/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
-  /Users/Vivian/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/share/cmake-3.16/Modules/FindBoost.cmake:2179 (find_package_handle_standard_args)
-  test/CMakeLists.txt:6 (find_package)
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/Vivian/CLionProjects/cmake_testapp/cmake-build-debug

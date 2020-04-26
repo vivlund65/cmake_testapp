@@ -149,6 +149,19 @@ cmake_testapp/fast:
 	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/build
 .PHONY : cmake_testapp/fast
 
+#=============================================================================
+# Target rules for targets named cmake_testapp_boost
+
+# Build rule for target.
+cmake_testapp_boost: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cmake_testapp_boost
+.PHONY : cmake_testapp_boost
+
+# fast build rule for target.
+cmake_testapp_boost/fast:
+	$(MAKE) -f test/CMakeFiles/cmake_testapp_boost.dir/build.make test/CMakeFiles/cmake_testapp_boost.dir/build
+.PHONY : cmake_testapp_boost/fast
+
 calc.o: calc.cpp.o
 
 .PHONY : calc.o
@@ -157,6 +170,7 @@ calc.o: calc.cpp.o
 calc.cpp.o:
 	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/calc.cpp.o
 	$(MAKE) -f CMakeFiles/test_library.dir/build.make CMakeFiles/test_library.dir/calc.cpp.o
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/calc.cpp.o
 .PHONY : calc.cpp.o
 
 calc.i: calc.cpp.i
@@ -167,6 +181,7 @@ calc.i: calc.cpp.i
 calc.cpp.i:
 	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/calc.cpp.i
 	$(MAKE) -f CMakeFiles/test_library.dir/build.make CMakeFiles/test_library.dir/calc.cpp.i
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/calc.cpp.i
 .PHONY : calc.cpp.i
 
 calc.s: calc.cpp.s
@@ -177,6 +192,7 @@ calc.s: calc.cpp.s
 calc.cpp.s:
 	$(MAKE) -f CMakeFiles/cmake_testapp_calc.dir/build.make CMakeFiles/cmake_testapp_calc.dir/calc.cpp.s
 	$(MAKE) -f CMakeFiles/test_library.dir/build.make CMakeFiles/test_library.dir/calc.cpp.s
+	$(MAKE) -f CMakeFiles/cmake_testapp.dir/build.make CMakeFiles/cmake_testapp.dir/calc.cpp.s
 .PHONY : calc.cpp.s
 
 main.o: main.cpp.o
@@ -220,6 +236,7 @@ help:
 	@echo "... cmake_testapp_calc"
 	@echo "... test_library"
 	@echo "... cmake_testapp"
+	@echo "... cmake_testapp_boost"
 	@echo "... calc.o"
 	@echo "... calc.i"
 	@echo "... calc.s"

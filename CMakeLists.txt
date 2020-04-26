@@ -4,7 +4,7 @@ project(cmake_testapp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cmake_testapp main.cpp)
+add_executable(cmake_testapp main.cpp calc.cpp)
 
 add_executable(cmake_testapp_calc main.cpp calc.cpp)
 
