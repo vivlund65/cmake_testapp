@@ -1,0 +1,4 @@
+"/Users/Vivian/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/201.6668.126/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Release -G "CodeBlocks - Unix Makefiles" /Users/Vivian/CLionProjects/cmake_testapp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/Vivian/CLionProjects/cmake_testapp/cmake-build-release
